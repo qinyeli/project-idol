@@ -313,7 +313,14 @@ $(function () {
 
 // Locations
 $(function () {
-    $(".card").on('click', () => {window.location.href = "https://www.instagram.com/"});
+    // $(".card").on('click', () => {window.location.href = "https://www.instagram.com/project.idol.band/"});
+    $(".semi").on('click', () => {window.location.href = "https://www.instagram.com/semi6610/"});
+    $(".xiang").on('click', () => {window.location.href = "https://www.instagram.com/hypnoootised/"});
+    $(".muer").on('click', () => {window.location.href = "https://www.instagram.com/muer_829/"});
+    $(".an").on('click', () => {window.location.href = "https://www.instagram.com/huijunan/"});
+    $(".luyi").on('click', () => {window.location.href = "https://www.instagram.com/luyima1993/"});
+    $(".erha").on('click', () => {window.location.href = "https://www.instagram.com/nuggetdrummer/"});
+    $(".sindy").on('click', () => {window.location.href = "https://www.instagram.com/sindyleaf/"});
 })
 // Location socials
 $(function () {
@@ -323,6 +330,6 @@ $(function () {
     });
     $('.instagram').on('click', function(event) {
       event.preventDefault();
-      window.location.href = "https://www.instagram.com/";
+      window.location.href = "https://www.instagram.com/project.idol.band/";
     });
 })
